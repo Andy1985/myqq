@@ -1,0 +1,16 @@
+ajax实现聊天室的功能
+
+一、需求
+1.登陆界面
+2.用户列表界面
+3.聊天室界面
+4.admin添加删除用户界面
+
+二、分析
+1.用户表(userId,name,password,isLogin)
+2.信息表(msgId,sender,getter,content,sendTime,isGet)
+3.日志表(id,logUser,logTime)
+
+三、流程
+1.用户发送信息给server(SendMessage.php)
+2.接收者每隔5秒从server获取信息(GetMessage.php)
