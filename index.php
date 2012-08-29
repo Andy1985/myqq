@@ -4,4 +4,5 @@
         window.location.href = "/views/login.php";    
     </script>
     </head>
+
 </html>
